@@ -43,7 +43,7 @@ To run this project, you need a Last.fm API Key set up in a backend environment.
 
 1.  **Clone the repo:**
     ```bash
-    git clone [https://github.com/seu-usuario/tunecharts-counter.git](https://github.com/drey-we/tunecharts-counter.git)
+    git clone [https://github.com/drey-we/tunecharts-counter.git](https://github.com/drey-we/tunecharts-counter.git)
     ```
 
 2.  **Backend Setup:**
