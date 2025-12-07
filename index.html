@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <link rel="canonical" href="https://counter.tunecharts.space" />
     
     <link rel="stylesheet" href="css/base.css">
@@ -12,7 +11,6 @@
     <title>Last.fm Time Calculator & Stats - TuneCharts Counter</title>
     
     <meta name="description" content="Free tool to calculate your total listening time on Last.fm. Convert scrobbles into hours and minutes. Generate beautiful charts for Instagram Stories.">
-    
     <meta name="keywords" content="last.fm time calculator, listening hours, music duration, scrobble time, lastfm stats, instagram music stories">
     <meta name="author" content="DreyWe">
     <meta name="theme-color" content="#0f0f0f">
@@ -66,9 +64,34 @@
          <a href="index.html" class="logo-container">
              <img src="icon.png" alt="TuneCharts Counter" class="logo-icon">
              <span class="logo-text">
-                 TuneCharts <span style="color: #bb86fc; font-size: 0.6em; vertical-align: middle; letter-spacing: 0.5px; margin-left: 4px; text-transform: uppercase; font-weight: 700;">Counter</span>
+                 TuneCharts 
+                 <span style="color: #bb86fc; font-weight: 700; text-transform: uppercase; font-size: 0.6em; margin-left: 5px;">Counter</span>
              </span>
          </a>
+
+         <nav class="nav-desktop">
+             <a href="https://tunecharts.space" class="nav-link">Charts</a>
+             <a href="index.html" class="nav-link active">Counter</a>
+             
+             <a href="https://matcher.tunecharts.space" class="nav-link">
+                 Matcher
+                 <span class="badge-new">NEW</span>
+             </a>
+         </nav>
+    
+         <button class="mobile-menu-btn" aria-label="Open Menu">
+             <span class="hamburger-line"></span>
+             <span class="hamburger-line"></span>
+             <span class="hamburger-line"></span>
+         </button>
+    
+         <div class="mobile-nav-overlay">
+             <a href="https://tunecharts.space" class="mobile-link">Charts</a>
+             <a href="index.html" class="mobile-link active">Counter</a>
+             <a href="https://matcher.tunecharts.space" class="mobile-link">
+                 Matcher <span class="badge-new-mobile">NEW</span>
+             </a>
+         </div>
     </header>
 
     <main class="hero-section">
@@ -90,13 +113,21 @@
 
             <p id="mensagemErro" class="erro"></p>
         </div>
+
+        <a href="https://matcher.tunecharts.space/" target="_blank" class="counter-promo">
+            <span class="promo-badge">NEW</span>
+            <span>Are you compatible? <strong>Test the Matcher</strong></span>
+            <svg class="promo-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </a>
+
     </main>
 
     <div class="content-wrapper">
-        
         <section class="content-section image-left">
             <div class="content-image">
-                <img src="https://counter.tunecharts.space/assets/mockup.webp" alt="TuneCharts time reports in different colors" loading="lazy">
+                <img src="assets/mockup.webp" alt="TuneCharts time reports" loading="lazy">
             </div>
             <div class="content-text">
                 <h2>From Scrobbles to Hours</h2>
@@ -107,7 +138,7 @@
 
         <section class="content-section image-right">
             <div class="content-image">
-                <img src="https://counter.tunecharts.space/assets/format.webp" alt="Comparison of Story and Square time formats" loading="lazy">
+                <img src="assets/format.webp" alt="Comparison of Story and Square time formats" loading="lazy">
             </div>
             <div class="content-text">
                 <h2>Share Your Time Stats</h2>
@@ -121,7 +152,7 @@
 
         <section class="content-section image-left">
             <div class="content-image">
-                <img src="https://counter.tunecharts.space/assets/phone.webp" alt="TuneCharts Counter results on mobile" loading="lazy">
+                <img src="assets/phone.webp" alt="TuneCharts Counter results on mobile" loading="lazy">
             </div>
             <div class="content-text">
                 <h2>Instant Time Analysis</h2>
@@ -134,27 +165,26 @@
                 <a href="#page-top" class="cta-button">Calculate My Time</a>
             </div>
         </section>
-
     </div>
+
     <footer>
-        
-<div class="footer-info">
-    <span class="info-line-1">© <span id="currentYear"></span> TuneCharts.</span>
-    <span class="info-line-2">All rights reserved.</span>
-    <span class="separator">|</span>
-    <span class="info-line-3">Created with ❤️ by <a href="https://last.fm/user/DreyWe" target="_blank">DreyWe</a></span>
-</div>
+        <div class="footer-info">
+            <span class="info-line-1">© <span id="currentYear"></span> TuneCharts.</span>
+            <span class="info-line-2">All rights reserved.</span>
+            <span class="separator">|</span>
+            <span class="info-line-3">Created with ❤️ by <a href="https://last.fm/user/DreyWe" target="_blank">DreyWe</a></span>
+        </div>
 
-    <div class="footer-links">
-        <a href="https://tunecharts.space/privacy.html">Privacy Policy</a>
-        <span class="dot">•</span>
-        <a href="https://tunecharts.space/terms.html">Terms of Use</a>
-        <span class="dot">•</span>
-        <a href="https://forms.gle/h2HfEoJhHfYRTTSXA" target="_blank" rel="noopener noreferrer">Feedback & Support</a>
-        <span class="dot">•</span>
-        <a href="changelog.html" class="versao">Counter v1.0.0</a>
-    </div>
-</footer>
+        <div class="footer-links">
+            <a href="https://tunecharts.space/privacy.html">Privacy Policy</a>
+            <span class="dot">•</span>
+            <a href="https://tunecharts.space/terms.html">Terms of Use</a>
+            <span class="dot">•</span>
+            <a href="https://forms.gle/h2HfEoJhHfYRTTSXA" target="_blank" rel="noopener noreferrer">Feedback & Support</a>
+            <span class="dot">•</span>
+            <a href="https://tunecharts.space/changelog.html" class="versao">Counter v2.1.0</a>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>
